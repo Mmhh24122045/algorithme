@@ -1,0 +1,20 @@
+algorithme string
+var
+sh: string;
+i, nb_c, nb_m, nb_v : integer;
+nb_c:=0 , nb_m:=0 , nb_v:=1 ;
+begin
+for i from 0 to str.lenght-1 step do
+
+nb_c:=nb_c+1;
+end if
+
+if (str[i]=" ") then
+nb_m:=nb_m+1;
+end if
+
+
+if (str[i]="a") or (str[i]="e") or (str[i]="i") or (str[i]="o") or (str[i]="u") or (str[i]="y") or
+ (str[i]="A") or (str[i]="E") or (str[i]="I") or (str[i]="O") or (str[i]="U") or (str[i]="Y")
+ nb_v:=nb_v+1;
+ end if
